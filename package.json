@@ -1,11 +1,13 @@
 {
   "name": "assignment",
   "version": "1.0.0",
+  "homepage": "https://nidhiinair.github.io/Node-Internship-Assignment/",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js -e ejs,js,json",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "deploy": "gh-pages -d start"
   },
   "author": "",
   "license": "ISC",
